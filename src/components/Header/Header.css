@@ -1,3 +1,21 @@
+.header-section{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
 .site-logo img{
     height: 80px;
+}
+.nav-bar a{
+    text-decoration: none;
+    color: #252525;
+    font-weight: bold;
+    padding: 5px 12px;
+    margin: 0 5px;
+    border-radius: 3px;
+    font-size: 18px;
+}
+.nav-bar a:hover{
+    background-color: orangered;
+    color: white;
 }

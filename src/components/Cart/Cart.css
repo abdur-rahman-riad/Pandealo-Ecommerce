@@ -1,0 +1,32 @@
+.cart-design{
+    margin-top: 25px;
+}
+.cart-design h2{
+    margin:0;
+    color: teal;
+}
+.cart-design h3 span{
+    color: orangered;
+}
+.cart-design h3{
+    margin: 0;
+}
+.place-order-btn{
+    width: 50%;
+    margin: 10px 0;
+    padding: 8px 0;
+    border: none;
+    background-color: orangered;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+.place-order-btn:hover{
+    background-color: red;
+}
+
+hr{
+    color: lightgray;
+}

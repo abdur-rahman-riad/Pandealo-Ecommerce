@@ -2,7 +2,8 @@
     background-color: white;
     text-align: center;
     border-radius: 5px;
-    box-shadow: 1px 1px 2px #808080;
+    /* box-shadow: 1px 1px 2px #808080; */
+    border: 1px solid lightgray;
     padding:10px;
 
     display: flex;
@@ -31,4 +32,12 @@
     font-weight: bold;
     cursor: pointer;
     border-radius: 3px;
+}
+
+.addToCart-btn:hover{
+    background-color: red;
+}
+
+.faStar{
+    color: orangered;
 }

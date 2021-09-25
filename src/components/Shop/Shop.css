@@ -13,7 +13,12 @@
 }
 
 .cart-container{
-    border-left: 1px solid darkgray;
+    height: 300px;
+    border-left: 2px solid darkgray;
+    border-right: 2px solid darkgray;
+    border-bottom: 2px solid darkgray;
+    border-radius: 10px 10px 0 0;
+    background-color: white;
     padding: 5px;
     text-align: center;
 }

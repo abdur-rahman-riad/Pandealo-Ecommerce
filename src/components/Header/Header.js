@@ -1,8 +1,10 @@
 import React from 'react';
 import './Header.css'
 import logo from '../../imgage/logo.png';
+import { NavLink } from 'react-router-dom';
 
 const Header = () => {
+    const activeStyle = { backgroundColor: "orangered", color: "white" }
     return (
         <div className="header-section">
 
@@ -13,9 +15,9 @@ const Header = () => {
 
             {/* Nav Bar */}
             <div className="nav-bar">
-                <a href="/shop">Shop</a>
-                <a href="/orders">Order Review</a>
-                <a href="/inventory">Manage Inventory</a>
+                <NavLink activeStyle={activeStyle} to="/shop">Shop</NavLink>
+                <NavLink activeStyle={activeStyle} to="/revieworder">Order Review</NavLink>
+                <NavLink activeStyle={activeStyle} to="/inventory">Manage Inventory</NavLink>
             </div>
         </div>
     );

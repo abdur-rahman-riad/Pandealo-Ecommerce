@@ -38,6 +38,7 @@
     background-color: red;
 }
 
-.faStar{
+.rating-icon{
     color: orangered;
+    font-size: 10px;
 }

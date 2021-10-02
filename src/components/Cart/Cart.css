@@ -30,3 +30,17 @@
 hr{
     color: lightgray;
 }
+
+.cart-item-design{
+    color: darkblue;
+}
+
+.cart-item{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.total-price{
+    color: teal;
+}

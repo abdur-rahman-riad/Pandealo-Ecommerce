@@ -14,11 +14,21 @@
 
 .cart-container{
     height: 300px;
-    border-left: 2px solid darkgray;
-    border-right: 2px solid darkgray;
-    border-bottom: 2px solid darkgray;
+    border-left: 1px solid darkgray;
+    border-right: 1px solid darkgray;
+    border-bottom: 1px solid darkgray;
     border-radius: 10px 10px 0 0;
     background-color: white;
     padding: 5px;
     text-align: center;
+}
+
+
+.search-container input{
+    width: 98%;
+    margin: 8px auto;
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid lightgray;
+    border-radius: 3px;
 }

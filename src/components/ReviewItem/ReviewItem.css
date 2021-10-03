@@ -1,0 +1,36 @@
+.review-item-container{
+    background-color: white;
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid lightgray;
+
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    grid-column-gap: 8px;
+    align-items: center;
+}
+.review-product-details h3{
+    margin: 3px 0;
+}
+.review-product-details h4{
+    margin:  0;
+    color: #181818;
+}
+.review-product-img img{
+    width: 100%;
+}
+.remove-btn{
+    width: 25%;
+    margin-top: 8px;
+    padding: 5px 0;
+    border: none;
+    background-color: orangered;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 3px;
+}
+.remove-btn:hover{
+    background-color: red;
+}

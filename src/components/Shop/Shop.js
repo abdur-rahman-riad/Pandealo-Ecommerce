@@ -1,7 +1,10 @@
 import React, { useEffect, useState } from 'react';
+import { Link } from 'react-router-dom';
 import { addToDb, getStoredCart } from '../../utilities/fakedb';
 import Cart from '../Cart/Cart';
 import Product from '../Product/Product';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faShoppingBag } from '@fortawesome/free-solid-svg-icons';
 // import NotFound from '../NotFound/NotFound';
 import './Shop.css';
 
@@ -49,6 +52,7 @@ const Shop = () => {
         addToDb(product.key);
     }
 
+    // Search and Display
     const handleSearch = event => {
         const searchText = event.target.value;
         const matchedProduct = products.filter(product => product.name.toLowerCase().includes(searchText.toLowerCase()));
@@ -74,7 +78,11 @@ const Shop = () => {
                 </div>
 
                 <div className="cart-container">
-                    <Cart cart={cart}></Cart>
+                    <Cart cart={cart}>
+                        <Link to="/revieworder">
+                            <button className="place-order-btn"> <FontAwesomeIcon icon={faShoppingBag} /> Order Review</button>
+                        </Link>
+                    </Cart>
                 </div>
             </div>
         </div>

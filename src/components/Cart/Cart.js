@@ -36,7 +36,7 @@ const Cart = (props) => {
             <h4 className="cart-item"><span>Tax: </span><span className="cart-item-design">${taxCost.toFixed(2)}</span></h4>
             <hr />
             <h3 className="total-price">Total: ${grandTotal.toFixed(2)}</h3>
-            <button className="place-order-btn"> <FontAwesomeIcon icon={faShoppingBag} /> Order Review</button>
+            <button className="place-order-btn"> <FontAwesomeIcon icon={faShoppingBag} /> Place Order</button>
         </div>
     );
 };
